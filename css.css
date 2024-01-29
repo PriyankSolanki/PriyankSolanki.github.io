@@ -1,9 +1,13 @@
+/* BODY */
 body {
     font-family: Arial, sans-serif;
+    position: relative;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
-  
+
+  /* NAVBAR */
   .navbar {
     background-color: #333; 
     color: #fff;
@@ -20,8 +24,8 @@ body {
   
   .logo {
     color: #fff;
-    text-decoration: none;
     font-size: 1.5rem;
+    list-style: none;
   }
   
   .nav-links {
@@ -44,3 +48,34 @@ body {
     text-decoration: underline; 
   }
   
+a{
+  text-decoration: none;
+}
+
+/* FOND */
+
+canvas {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+/* CENTRE BUTTON */
+
+.suite {
+  text-align: center; 
+  text-decoration: none;
+  width: 18%;
+  margin-left: 40%;
+  color: rgb(0, 0, 0, 0.7);
+  margin-top: 20%;
+  border: 2px solid rgb(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.suite p {
+  text-decoration: underline;
+}
+
+
