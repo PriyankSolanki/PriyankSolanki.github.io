@@ -8,7 +8,7 @@
           x: random(width), // Position x aléatoire
           y: random(height), // Position y aléatoire
           diameter: random(10, 50), // Diamètre aléatoire
-          color: color(random(255), random(255), random(255), 100), // Couleur aléatoire avec transparence
+          color: color(random(255), random(255), random(255), 200), // Couleur aléatoire avec transparence
           speedX: random(-2, 2), // Vitesse horizontale aléatoire
           speedY: random(-2, 2) // Vitesse verticale aléatoire
         });

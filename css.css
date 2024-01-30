@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
 /* BODY */
 body {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
     position: relative;
     margin: 0;
     padding: 0;
@@ -70,7 +73,7 @@ canvas {
   width: 18%;
   margin-left: 40%;
   color: rgb(0, 0, 0, 0.6);
-  margin-top: 20%;
+  margin-top: 10%;
   border: 2px solid rgb(0, 0, 0, 0.6);
   border-radius: 10px;
 }
@@ -83,6 +86,68 @@ canvas {
 
 .presentation {
   margin: 3%;
+  display: flex; 
+}
+
+.presentation .block_info_pers {
+  background-color: rgb(44, 44, 44);
+  padding: 2%;
+  width: 40%;
+  color: #fff;
+  height: 600px;
+  margin : 3%;
+  display: inline-block;
+  font-size: large;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* PARCOURS */
+
+.parcours {
+  margin: 3%;
+  display: flex; 
+}
+
+.parcours .lycee,
+.parcours .but {
+  background-color: rgb(44, 44, 44);
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  padding-top: 100px;
+  color: #fff;
+  margin : 3%;
+  margin-left: 16%;
+  text-align: center;
+  font-size: large;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #acacac;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+  background-color: #979595;
+}
+
+.scroll-button img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
 }
 
 
