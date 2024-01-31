@@ -22,7 +22,7 @@
 
  function drawLine() {
     var currentX = startX;
-    var increment = 5; // Valeur à incrémenter pour déplacer la ligne
+    var increment = 10; // Valeur à incrémenter pour déplacer la ligne
 
     function draw() {
         ctx.beginPath();

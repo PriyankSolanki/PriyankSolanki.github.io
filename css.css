@@ -55,6 +55,10 @@ a{
   text-decoration: none;
 }
 
+.selected{
+  color: #979595;
+}
+
 /* FOND */
 
 canvas {
@@ -86,6 +90,61 @@ canvas {
   text-decoration: underline;
 }
 
+/* BUTTON SCROLL */
+
+.scroll-button-droite {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #acacac;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button-droite:hover {
+  background-color: #979595;
+}
+
+.scroll-button-droite img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.scroll-button-gauche {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #acacac;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button-gauche:hover {
+  background-color: #979595;
+}
+
+.scroll-button-gauche img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  transform: scaleX(-1); 
+}
+
 /* PRESENTATION */
 
 .presentation {
@@ -100,9 +159,28 @@ canvas {
   color: #fff;
   height: 600px;
   margin : 3%;
+  margin-left: 10%;
   display: inline-block;
   font-size: large;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.presentation .block_info_pers a{
+  color: #fff;
+  text-decoration: underline;
+}
+.presentation .block_info_pers a:hover{
+  color: #969696;
+  text-decoration: none;
+}
+
+
+.presentation .photo img{
+  padding: 2%;
+  height: 650px;
+  margin : 3%;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
 /* PARCOURS */
@@ -127,31 +205,7 @@ canvas {
   border-radius: 50%;
 }
 
-.scroll-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #acacac;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  color: #fff;
-  text-decoration: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
-}
 
-.scroll-button:hover {
-  background-color: #979595;
-}
-
-.scroll-button img {
-  width: 30px;
-  height: 30px;
-  margin-top: 10px;
-}
 /* EXPERIENCES & FORMATIONS*/
 
 .experience, .formation {
@@ -159,7 +213,7 @@ canvas {
   text-align: center;
 }
 
-.experience .stage, .formation .but {
+.experience .stage, .formation .but, .formation .nsi {
   background-color: rgb(44, 44, 44);
   padding: 2%;
   width: 90%;
