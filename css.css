@@ -7,7 +7,6 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    overflow: hidden;
   }
 
   /* NAVBAR */
@@ -63,6 +62,11 @@ canvas {
   top: 0;
   left: 0;
   z-index: -100;
+}
+
+#canvas2{
+  position: fixed;
+  z-index: -99;
 }
 
 /* CENTRE BUTTON */
@@ -121,7 +125,6 @@ canvas {
   text-align: center;
   font-size: large;
   border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .scroll-button {
@@ -149,5 +152,20 @@ canvas {
   height: 30px;
   margin-top: 10px;
 }
+/* EXPERIENCES & FORMATIONS*/
 
+.experience, .formation {
+  margin: 3%;
+  text-align: center;
+}
 
+.experience .stage, .formation .but {
+  background-color: rgb(44, 44, 44);
+  padding: 2%;
+  width: 90%;
+  color: #fff;
+  height: 200px;
+  margin : 3%;
+  font-size: large;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
