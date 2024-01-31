@@ -237,6 +237,7 @@ canvas {
 }
 .competences img{
   width: 300px;
+  height: 180px;
 }
 
 .competences a{
@@ -254,4 +255,19 @@ canvas {
 .competences a:hover{
   background-color: rgb(143, 143, 143);
   color: black;
+}
+
+/* CV*/
+
+.cv img {
+  width: 60%;
+  box-shadow: 0 0px 12px rgb(70, 70, 70);
+  margin: 10%;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+.cv h1{
+  margin-top: 3%;
+  text-align: center;
 }
