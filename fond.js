@@ -3,12 +3,13 @@
     function setup() {
       createCanvas(windowWidth, windowHeight);
       // Créer quelques cercles avec des propriétés aléatoires
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 30; i++) {
+        let colorChoice = random() > 0.5 ? color(200, 200, 200, 100) : color(0, 0, 255, 100); // Choix aléatoire entre gris et bleu
         circles.push({
           x: random(width), // Position x aléatoire
           y: random(height), // Position y aléatoire
-          diameter: random(10, 50), // Diamètre aléatoire
-          color: color(random(255), random(255), random(255), 200), // Couleur aléatoire avec transparence
+          diameter: random(10, 100), // Diamètre aléatoire
+          color: colorChoice, // Couleur aléatoire avec transparence
           speedX: random(-2, 2), // Vitesse horizontale aléatoire
           speedY: random(-2, 2) // Vitesse verticale aléatoire
         });

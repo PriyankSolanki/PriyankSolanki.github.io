@@ -228,19 +228,20 @@ canvas {
 
 .comp{
   text-align: center;
+  margin-top: 3%;
 }
-.competences {
+.projets {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   margin-left: 3%;
 }
-.competences img{
+.projets img{
   width: 300px;
   height: 180px;
 }
 
-.competences a{
+.projets a{
   background-color: rgb(41, 41, 41);
   padding: 2%;
   width: 18%;
@@ -252,10 +253,39 @@ canvas {
   box-shadow: 0 2px 4px rgba(46, 46, 46, 0.8);
 }
 
-.competences a:hover{
+.projets a:hover{
   background-color: rgb(143, 143, 143);
   color: black;
 }
+
+.competences {
+  margin: 5%;
+  margin-top: -3%;
+}
+
+.competences .case{
+  background-color: rgba(179, 179, 179, 0.884);
+  border-radius: 50px;
+  width: 18%;
+  height: 300px;
+  box-shadow: 0 2px 4px rgba(46, 46, 46, 0.8);
+  margin-left: 5%;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.competences .case img{
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.competences .case .python{
+  width: 120%;
+  margin-left: -10%;
+}
+
 
 /* CV*/
 
@@ -270,4 +300,22 @@ canvas {
 .cv h1{
   margin-top: 3%;
   text-align: center;
+}
+
+.download{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: black;
+
+}
+
+.blanc-svg{
+  fill: #ffffff;
+  width: 100%;
+  height: 60%;
+}
+
+.download:hover{
+  background-color: rgb(116, 116, 116);
 }
