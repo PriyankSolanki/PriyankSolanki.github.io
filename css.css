@@ -321,3 +321,33 @@ canvas {
 .download:hover{
   background-color: rgb(116, 116, 116);
 }
+
+/* DERNIER PROJET*/
+
+
+.dernier_projet {
+  margin: 3%;
+  display: flex; 
+}
+
+.dernier_projet .block_info_projet {
+  background-color: rgb(44, 44, 44);
+  padding: 2%;
+  width: 40%;
+  color: #fff;
+  height: 600px;
+  margin : 3%;
+  display: inline-block;
+  font-size: large;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+.dernier_projet .photoCourroux img{
+  padding: 2%;
+  padding-left: 0%;
+  height: 500px;
+  margin : 3%;
+  margin-left : 0%;
+  margin-top: 10%;
+}
