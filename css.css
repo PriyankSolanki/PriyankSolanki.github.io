@@ -235,6 +235,7 @@ canvas {
   flex-wrap: wrap;
   text-align: center;
   margin-left: 3%;
+
 }
 .projets img{
   width: 300px;
@@ -250,6 +251,7 @@ canvas {
   color: #ffffff;
   height: 600px;
   font-size: large;
+  margin-top: 2%;
   box-shadow: 0 2px 4px rgba(46, 46, 46, 0.8);
 }
 
