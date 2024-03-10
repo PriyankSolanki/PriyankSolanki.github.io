@@ -1,0 +1,75 @@
+.exp{
+    text-align: center;
+    margin-top: 3%;
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size: 18px;
+}
+
+.elements{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.experiences h1{
+    background-color: rgba(86, 86, 86, 0.3);
+    border-radius: 30px;
+    padding: 1%;
+}
+
+.experiences .elements{
+    background-color: rgba(86, 86, 86, 0.1);
+    border-radius: 30px;
+    padding: 1%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.formations{
+    margin-top: 6%;
+}
+
+.formations h1{
+    background-color: rgba(86, 86, 86, 0.3);
+    border-radius: 30px;
+    padding: 1%;
+}
+
+.formations .elements{
+    background-color: rgba(86, 86, 86, 0.1);
+    border-radius: 30px;
+    padding: 1%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+#recherche{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 0%;
+    margin-left: 0%;  
+}
+
+#recherche a{
+    color: white;
+    text-decoration: none;  
+}
+
+
+#recherche img{
+    width: 5%;
+    margin-right: 3%;
+}
+/* Ajoutez le CSS pour le curseur ici */
+#rechercheStage::after {
+    content: '|';
+    animation: cursor-blink 1s infinite;
+}
+
+@keyframes cursor-blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

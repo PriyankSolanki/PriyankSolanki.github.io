@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* BODY */
+body {
+    font-family:"Poppins", sans-serif;
+    color: #fff;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  a{
+    text-decoration: none;
+}
+
+/* FOND */
+canvas {
+  position: fixed;
+  z-index: -1;
+}
+
+/*BARNAV*/
+.top {
+  display: inline-block;
+  font-style: bold;
+  font-family: "Madimi One", sans-serif;;
+  font-size : x-large;
+  margin-left: 15%;
+  margin-top: 1%;
+}  
+
+/* Barre de défilement */
+::-webkit-scrollbar {
+  width: 12px; 
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff; 
+}
+::-webkit-scrollbar-thumb {
+  background-color: #020020d0; 
+  border-radius: 20px; 
+}
+::-webkit-scrollbar-button {
+  display: none; 
+}
+
+

@@ -1,0 +1,40 @@
+/*FLECHES*/
+.fleches {
+    color: white;
+    margin-top: 15%;
+    display: inline-block;
+    position: fixed;
+    padding: 1%;
+    top: 10%;
+  }
+
+  #droite{
+    border-left: 3px solid white; 
+    right: 50px;
+  }
+
+  #gauche{
+    border-right: 3px solid white;
+    left: 50px;
+  }
+
+.arrowGauche {
+    font-size: 22px;
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.arrowDroite {
+    font-size: 22px;
+    display: inline-block;
+}
+
+#textContainer{
+    font-size: 22px;
+    display: inline-block;
+}
+
+#textContainer2{
+    font-size: 22px;
+    display: inline-block;
+}

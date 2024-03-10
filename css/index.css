@@ -1,0 +1,54 @@
+/* PRESENTATION */
+.presentation{
+  display: inline-block;
+}
+.presentation .block_info_pers {
+  margin-top: 3%;
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  margin-left: 3%;
+}
+
+.presentation .text{
+  margin-left: 5%;
+}
+
+.presentation #priyank{
+  height: 50%;
+  width: 18%;
+  margin-left: 15%;
+  border-radius: 5%;
+  margin-top: 5%;
+  float: left;
+}
+
+.presentation #gif{
+  height: 50%;
+  width: 100%;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+.presentation .block_info_pers .contact{
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+.presentation .block_info_pers .contact a img{
+  width: 13%;
+  margin-right: 8%;
+  float: left;
+}
+
+
+.presentation .block_info_pers .contact a img:hover{
+  width: 15%;
+  margin-right: 6%;
+}
+
+
+
+
+
+

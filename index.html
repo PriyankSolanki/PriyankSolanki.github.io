@@ -4,32 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Priyank Solanki</title>
-    <link rel="stylesheet" href="css.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-    
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fleches.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     
 </head>
 
 <body>
+  <canvas id="canvas"></canvas>
+  <script src="js/fond.js"></script>
 
-    <nav class="navbar">
-        <div class="container">
-          <a href="index.html"><h3 class="logo">Priyank Solanki</h3></a>
-          <ul class="nav-links">
-            <li><a href="presentation.html"><p>Présentation</p></a></li>
-            <li><a href="parcours.html"><p>Parcours académique</p></a></li>
-            <li><a href="exp.html"><p>Expériences</p></a></li>
-            <li><a href="comp.html"><p>Compétences</p></a></li>
-            <li><a href="cv.html"><p>CV</p></a></li>
-            <li><a href="dernier_projet.html"><p>Dernier projet</p></a></li>
-          </ul>
-        </div>
-      </nav>
-      <script src="fond.js"></script>
-      <a href="presentation.html">
-      <div class="suite">
-        <h1>PRIYANK SOLANKI</h1>
-        <p>passez à la présentation</p>
-      </div></a>
+  <div class="top">
+    <div><h4>/ PSolanki</h4></div>
+    <div></div>
+  </div>
+
+  <div class="presentation">
+      <img id="priyank" src="img/moi.jpg" alt="Photo de priyank">
+
+    <div class="block_info_pers">
+      <img id="gif" src="img/Priyank.gif" alt="Photo de priyank">
+      <div class="text">
+        <p>Passionné du développement informatique. Je suis fasciné par tout ce que l'on peut créer grâce aux différents langages de programmation.</p>
+        <p>Créatif dans l'âme. J'adore insuffler ma touche personnelle à chaque projet, cherchant continuellement à apporter des innovations.</p>
+        <p>L'informatique a toujours été au cœur de mes intérêts, voilà pourquoi je veux devenir développeur !</p>
+      </div>
+
+      <div class="contact">
+        <a href="https://github.com/PriyankSolanki"><img src="img/logo/github.webp" alt="github"></a>
+        <a href="https://www.linkedin.com/in/priyank-solanki-114b182a0/"><img src="img/logo/linkedin.webp" alt="linkedin"></a>
+      </div>
+    </div>
+
+
+    <a href="html/exp.html">
+    <div class="fleches" id="droite">
+      <div id="textContainer2">PARCOURS</div>
+      <div class="arrowDroite">&#10140;</div>
+      <script src="js/fleches2.js"></script>
+    </div></a>
+
+  </div>
+  
+
 </body>
 </html>
