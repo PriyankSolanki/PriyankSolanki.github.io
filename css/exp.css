@@ -73,3 +73,38 @@
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+#rapport{
+    float:right;
+    margin-right: 6%;
+    margin-top: 3%;
+    color: white;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+.tooltip:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
