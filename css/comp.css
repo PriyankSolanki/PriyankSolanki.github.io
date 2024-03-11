@@ -111,19 +111,25 @@ width: 100%;
 }
 
 #ajouter .content{
-    justify-content: center;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     display: flex;
 }
 
-.croix{
+
+
+#ajouter .content a{
     background-color: rgba(0, 145, 145, 0.2);
     color: rgb(2, 194, 194);
     width: 70%;
     text-align: center;
     font-size: 150px;
     border-radius: 50%;
+}
+
+#ajouter .content a:hover{
+    width: 80%;
+    font-size: 170px;
 }
 
 
