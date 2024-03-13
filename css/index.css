@@ -43,11 +43,29 @@
 
 
 .presentation .block_info_pers .contact a img:hover{
+  animation-name: lien;
+  animation-duration: 0.2s; 
+  animation-timing-function: ease;
   width: 15%;
   margin-right: 6%;
 }
 
+.presentation .block_info_pers .contact a img:not(hover) {
+  animation-name: lien2;
+  animation-duration: 0.2s; 
+  animation-timing-function: ease;
+}
 
+
+@keyframes lien {
+  0% {   width: 13%; margin-right: 8%; }
+  100% {    width: 15%; margin-right: 6%;}
+}
+
+@keyframes lien2 {
+  0% {   width: 15%; margin-right: 6%; }
+  100% {   width: 13%; margin-right: 8%;}
+}
 
 
 
