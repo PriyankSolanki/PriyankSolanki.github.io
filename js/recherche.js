@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const textContainer = document.getElementById('rechercheStage');
-    const textToWrite = "EN RECHERCHE DE STAGE";
+    const textToWrite = "EN RECHERCHE D'UNE ALTERNANCE";
     const textToWrite2 = "VOIR MON CV";
     let currentIndex = 0;
 
