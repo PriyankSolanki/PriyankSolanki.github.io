@@ -48,8 +48,8 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    padding-left: 0%;
-    margin-left: 0%;  
+    padding-left: 0;
+    margin-left: 0;
 }
 
 #recherche a{
@@ -74,18 +74,15 @@
     100% { opacity: 1; }
 }
 
-#rapport{
-    float:right;
-    margin-right: 6%;
-    margin-top: 3%;
-    color: white;
-}
-
 
 .tooltip {
     position: relative;
     display: inline-block;
     cursor: pointer;
+    float:right;
+    margin-right: 6%;
+    margin-top: 3%;
+    color: white;
   }
   
 .tooltip::after {
