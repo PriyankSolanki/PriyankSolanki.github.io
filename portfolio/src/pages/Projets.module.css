@@ -1,0 +1,118 @@
+.wrapper {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255);
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+.cardHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.cardTitle {
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.context {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: rgb(100 116 139);
+}
+
+.githubBtn {
+    border-radius: 0.75rem;
+    border: 1px solid rgb(226 232 240);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 0.3s ease;
+}
+
+.githubBtn:hover {
+    background: rgb(241 245 249);
+    color: rgb(30 41 59);
+}
+
+
+.description {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.list {
+    margin-top: 0.75rem;
+    padding-left: 1.25rem;
+    list-style: disc;
+    display: grid;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.tags {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.btnGroup{
+    display: flex;
+    gap: 0.75rem;
+}
+
+.navArrows {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    z-index: 60;
+    pointer-events: none;
+}
+
+.navArrows > * {
+    pointer-events: auto;
+}
+

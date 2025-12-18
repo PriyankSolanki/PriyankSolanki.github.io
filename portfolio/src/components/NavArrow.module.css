@@ -1,0 +1,31 @@
+.link {
+    text-decoration: none;
+}
+
+.arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 12px 18px;
+    border-radius: 999px;
+    color: rgb(226 232 240);
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.arrow:hover {
+    transform: translateX(-4px);
+}
+
+.icon {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+}

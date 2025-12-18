@@ -1,0 +1,69 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    border-bottom: 0.1px solid rgba(226, 232, 240, 0.15); /* slate-200/70 */
+    background: rgba(20, 32, 55, 0.29);             /* white/80 */
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+}
+
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0; /* py-4 */
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1; /* leading-tight */
+}
+
+.name {
+    font-size: 0.875rem; /* text-sm */
+    font-weight: 700;    /* font-bold */
+}
+
+.subtitle {
+    font-size: 0.75rem;  /* text-xs */
+    color: rgb(100 116 139); /* slate-500 */
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* gap-2 */
+}
+
+.link {
+    border-radius: 0.75rem; /* rounded-xl */
+    padding: 0.5rem 0.75rem; /* py-2 px-3 */
+    font-size: 0.875rem;     /* text-sm */
+    font-weight: 600;        /* font-semibold */
+    transition: background 0.15s ease, color 0.15s ease;
+    text-decoration: none;
+}
+
+/* Inactive */
+.linkInactive {
+    color: white;
+    transition : 0.3s ease;
+}
+
+.linkInactive:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(51 65 85); /* slate-700 */
+}
+
+
+/* Active */
+.linkActive {
+    background: rgb(255, 255, 255); /* slate-900 */
+    color: rgb(51 65 85); /* slate-700 */
+}
+
+

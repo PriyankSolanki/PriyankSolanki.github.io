@@ -1,0 +1,110 @@
+.wrapper {
+    display: grid;
+    gap: 1.5rem;
+    color: white;
+    grid-template-columns: 1fr;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.sectionTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.cardTitle {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.githubBtn {
+    border-radius: 0.75rem;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 0.15s ease;
+}
+
+.githubBtn:hover {
+    background: rgb(241 245 249);
+    color: rgb(30 41 59);
+}
+
+.cardCompany {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+.cardSubtitle {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: rgb(134, 151, 166);
+}
+
+.cardText {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.list {
+    margin-top: 1rem;
+    padding-left: 1.25rem;
+    list-style: disc;
+    display: grid;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.btnGroup {
+    display: flex;
+    gap: 0.6rem;
+}
+
+
+.navArrows {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    z-index: 60;
+    pointer-events: none;
+}
+
+.navArrows > * {
+    pointer-events: auto;
+}
