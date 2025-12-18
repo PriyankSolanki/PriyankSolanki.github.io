@@ -5,11 +5,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "portfolio/node_modules/.bin/vite",
-    "build": "portfolio/node_modules/.bin/tsc -b && vite build",
-    "lint": "portfolio/node_modules/.bin/eslint .",
-    "preview": "portfolio/node_modules/.bin/vite preview",
-    "deploy": "gh-pages -d portfolio/dist"
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/tsc -b && vite build",
+    "lint": "node_modules/.bin/eslint .",
+    "preview": "node_modules/.bin/vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
