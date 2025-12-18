@@ -1,6 +1,6 @@
-import Container from "../components/Container";
-import Card from "../components/Card";
-import { profile } from "../data/portfolio";
+import Container from "../components/Container.tsx";
+import Card from "../components/Card.tsx";
+import { profile } from "../data/portfolio.ts";
 import me from "../assets/me.jpeg";
 import styles from "./Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

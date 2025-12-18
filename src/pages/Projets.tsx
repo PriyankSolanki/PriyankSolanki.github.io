@@ -1,7 +1,7 @@
-import Container from "../components/Container";
-import Card from "../components/Card";
-import Tag from "../components/Tag";
-import { projects } from "../data/portfolio";
+import Container from "../components/Container.tsx";
+import Card from "../components/Card.tsx";
+import Tag from "../components/Tag.tsx";
+import { projects } from "../data/portfolio.ts";
 import styles from "./Projets.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";

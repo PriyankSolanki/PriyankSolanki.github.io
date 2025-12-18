@@ -1,8 +1,8 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Parcours from "./pages/Parcours";
-import Projets from "./pages/Projets";
+import Navbar from "./components/Navbar.tsx";
+import Home from "./pages/Home.tsx";
+import Parcours from "./pages/Parcours.tsx";
+import Projets from "./pages/Projets.tsx";
 import BackgroundCanvas from "./components/BackgroundCanva.tsx";
 import styles from "./App.module.css"
 

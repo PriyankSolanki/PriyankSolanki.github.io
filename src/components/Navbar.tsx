@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useMemo } from "react";
-import Container from "./Container";
-import { profile } from "../data/portfolio";
+import Container from "./Container.tsx";
+import { profile } from "../data/portfolio.ts";
 import styles from "./Navbar.module.css";
 
 function linkClass(isActive: boolean) {

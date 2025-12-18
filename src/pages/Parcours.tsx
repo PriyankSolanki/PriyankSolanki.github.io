@@ -1,6 +1,6 @@
-import Container from "../components/Container";
-import Card from "../components/Card";
-import { experiences, formations } from "../data/portfolio";
+import Container from "../components/Container.tsx";
+import Card from "../components/Card.tsx";
+import { experiences, formations } from "../data/portfolio.ts";
 import styles from "./Parcours.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGlobe, faPaperclip} from "@fortawesome/free-solid-svg-icons";
