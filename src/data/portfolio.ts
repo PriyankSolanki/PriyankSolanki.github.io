@@ -15,7 +15,7 @@ export const profile = {
     links: {
         github: "https://github.com/priyanksolanki",
         linkedin: "https://www.linkedin.com/in/priyank-solanki-114b182a0/",
-        email: "mailto:priyank.solanki@gmail.com",
+        email: "mailto:priyank.slki@gmail.com",
     },
 };
 
