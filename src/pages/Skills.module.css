@@ -85,3 +85,9 @@
         display: none;
     }
 }
+@media (max-width: 768px) {
+    .skillCard {
+        font-size: 0.7rem;
+    }
+
+}
