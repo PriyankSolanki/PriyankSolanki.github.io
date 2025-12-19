@@ -137,7 +137,7 @@ export const projects: Project[] = [
         stack: ["Vue.js", "Symfony", "PHP", "PostgreSQL", "Node.js", "Swagger", "PhpStorm", "WebStorm"],
     },
     {
-        title: "Blazing maquette (projet en cours)",
+        title: "Blazing maquette (projet en cour)",
         url: "https://github.com/priyanksolanki/BlazingMaquette",
         description:
             "Jeu mobile inspiré du jeu mobile Naruto Ultimate Ninja Storm Blazing, aujourd'hui disparu, j'essaye de la faire revivre",
