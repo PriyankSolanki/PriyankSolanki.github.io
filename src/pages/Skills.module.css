@@ -4,15 +4,13 @@
     width: 100%;
 }
 
-/* Les cartes catégories prennent toute la largeur */
 .grid {
     display: grid;
-    grid-template-columns: 1fr; /* 1 carte par ligne => full width */
+    grid-template-columns: 1fr;
     gap: 34px;
     width: 100%;
 }
 
-/* Contenu de la carte catégorie */
 .cardHeader {
     display: flex;
     flex-direction: column;
@@ -30,7 +28,7 @@
 
 .skillsGrid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr)); /* 5 par ligne */
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 24px;
     width: 100%;
 }

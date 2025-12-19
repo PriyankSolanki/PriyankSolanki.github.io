@@ -17,7 +17,6 @@ export default function BackgroundCanvas() {
         let W = window.innerWidth;
         let H = window.innerHeight;
 
-        // Retina support
         const resize = () => {
             W = window.innerWidth;
             H = window.innerHeight;
@@ -60,7 +59,6 @@ export default function BackgroundCanvas() {
         });
 
         const draw = () => {
-            // Background gradient
             const grad = ctx.createLinearGradient(0, 0, W, H);
             grad.addColorStop(0, "rgb(0, 0, 40)");
             grad.addColorStop(0.9, "rgb(0, 0, 10)");
@@ -69,7 +67,6 @@ export default function BackgroundCanvas() {
             ctx.fillStyle = grad;
             ctx.fillRect(0, 0, W, H);
 
-            // Circles
             for (const c of circles) {
                 const blurGrad = ctx.createRadialGradient(c.x, c.y, 0, c.x, c.y, c.r);
                 blurGrad.addColorStop(0, "rgba(0,0,60,0.5)");
@@ -91,7 +88,6 @@ export default function BackgroundCanvas() {
                 if (c.y > H + 50) c.y = -50;
             }
 
-            // Lines
             for (const l of lines) {
                 ctx.beginPath();
                 ctx.globalCompositeOperation = "lighter";
