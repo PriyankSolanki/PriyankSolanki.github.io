@@ -17,7 +17,7 @@
 
 @media (min-width: 768px) {
     .imageWrap {
-        flex: 0 0 360px;
+        flex: 0 0 320px;
         align-self: stretch;
     }
 }
@@ -31,7 +31,7 @@
 
 @media (max-width: 767px) {
     .image {
-        height: 16rem;
+        height: 36rem;
     }
 }
 
