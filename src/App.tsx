@@ -5,6 +5,7 @@ import Parcours from "./pages/Parcours.tsx";
 import Projets from "./pages/Projets.tsx";
 import BackgroundCanvas from "./components/BackgroundCanva.tsx";
 import styles from "./App.module.css"
+import Skills from "./pages/Skills.tsx";
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/parcours" element={<Parcours />} />
                     <Route path="/projets" element={<Projets />} />
+                    <Route path="/competences" element={<Skills />} />
                     <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>
             </main>

@@ -3,7 +3,32 @@ import rapportAgitel from "../assets/rapports/rapport_agitel.pdf";
 import rapportUcar from "../assets/rapports/rapport_ucar.pdf";
 import BUTGraduation from "../assets/graduation/dbut.jpeg";
 import BACGraduation from "../assets/graduation/dbac.jpeg";
-
+import HTML from "../assets/skills/html.svg"
+import CSS from "../assets/skills/css.svg"
+import JS from "../assets/skills/js.svg"
+import TS from "../assets/skills/ts.svg"
+import Twig from "../assets/skills/twig.svg"
+import Python from "../assets/skills/python.svg"
+import Java from "../assets/skills/java.svg"
+import C from "../assets/skills/c.svg"
+import Cpp from "../assets/skills/cpp.svg"
+import Csharp from "../assets/skills/csharp.svg"
+import Angular from "../assets/skills/angular.svg"
+import Docker from "../assets/skills/docker.svg"
+import Maven from "../assets/skills/maven.svg"
+import PHP from "../assets/skills/php.svg"
+import React from "../assets/skills/react.svg"
+import Spring from "../assets/skills/spring.svg"
+import Symfony from "../assets/skills/symfony.svg"
+import Vuejs from "../assets/skills/vuejs.svg"
+import NextJS from "../assets/skills/nextjs.svg"
+import Trello from "../assets/skills/trello.svg"
+import Eclipse from "../assets/skills/eclipse.svg"
+import JetBrains from "../assets/skills/jetbrains.svg"
+import Postman from "../assets/skills/postman.svg"
+import Notion from "../assets/skills/notion.svg"
+import Github from "../assets/skills/github.svg"
+import Unity from "../assets/skills/unity.svg"
 
 
 export const profile = {
@@ -173,4 +198,42 @@ export const projects: Project[] = [
         context: "BUT Informatique — 5ᵉ semestre",
         stack: ["Angular", "Flask", "PostgreSQL", "Docker", "Swagger", "Visual Studio Code"],
     },
+];
+
+
+export const competences = [
+    {
+        title : "Développement Web",
+        skills : [
+            {svg : HTML, name : "HTML"}, {svg : CSS, name : "CSS"},
+            {svg : JS, name : "JS"}, {svg : TS, name : "TS"},
+            {svg : Twig, name : "Twig"}
+        ]
+    },
+    {
+        title : "Langages de programmation",
+        skills : [
+            {svg : Python, name : "Python"}, {svg : Java, name : "Java"},
+            {svg : C, name : "C"}, {svg : Cpp, name : "C++"},
+            {svg : Csharp, name : "C#"}, {svg : PHP, name : "PHP"}
+        ]
+    },
+    {
+        title : "Frameworks",
+        skills : [
+            {svg : Angular, name : "Angular"}, {svg : Symfony, name : "Symfony"},
+            {svg : Spring, name : "SpringBoot"}, {svg : React, name : "React"},
+            {svg : Vuejs, name : "VueJS"}, {svg : NextJS, name : "NextJS"}
+        ]
+    },
+    {
+        title : "Logiciels et outils",
+        skills : [
+            {svg : Maven, name : "Maven"}, {svg : Docker, name : "Docker"},
+            {svg : Trello, name : "Trello"}, {svg : Github, name : "GitHub"},
+            {svg : Postman, name : "Postman"}, {svg : Unity, name : "Unity"},
+            {svg : Eclipse, name : "Eclipse"}, {svg : Notion, name : "Notion"},
+            {svg : JetBrains, name : "JetBrains"},
+        ]
+    }
 ];

@@ -13,6 +13,7 @@ export default function Projets() {
         <Container>
             <div className={styles.navArrows}>
                 <NavArrow to="/parcours" label="Parcours" direction="left" />
+                <NavArrow to="/competences" label="Compétences" direction="right" />
             </div>
             <div className={styles.wrapper}>
                 <div className={styles.grid}>

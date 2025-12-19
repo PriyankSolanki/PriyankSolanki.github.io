@@ -17,6 +17,7 @@ export default function Navbar() {
             { to: "/", label: "Présentation" },
             { to: "/parcours", label: "Parcours" },
             { to: "/projets", label: "Projets" },
+            { to: "/competences", label: "Compétences" },
         ],
         []
     );
