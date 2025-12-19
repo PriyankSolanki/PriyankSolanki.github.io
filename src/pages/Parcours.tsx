@@ -3,7 +3,7 @@ import Card from "../components/Card.tsx";
 import { experiences, formations } from "../data/portfolio.ts";
 import styles from "./Parcours.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGlobe, faPaperclip} from "@fortawesome/free-solid-svg-icons";
+import {faGlobe, faGraduationCap, faPaperclip} from "@fortawesome/free-solid-svg-icons";
 import NavArrow from "../components/NavArrow.tsx";
 
 
@@ -48,7 +48,12 @@ export default function Parcours() {
                     <div className={styles.grid}>
                         {formations.map((f) => (
                             <Card key={f.title}>
-                                <div className={styles.cardTitle}>{f.title}</div>
+                                <div className={styles.cardHeader}>
+                                    <div className={styles.cardTitle}>{f.title}</div>
+                                    <div className={styles.btnGroup}>
+                                        {f.graduation && (<a href={f.graduation} target="_blank" rel="noreferrer" className={styles.githubBtn}>Diplôme <FontAwesomeIcon icon={faGraduationCap} /></a>)}
+                                    </div>
+                                </div>
                                 <div className={styles.cardText}>{f.detail}</div>
                                 <div className={styles.cardSubtitle}>{f.place}</div>
                             </Card>

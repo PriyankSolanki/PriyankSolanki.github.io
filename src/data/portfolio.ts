@@ -1,6 +1,9 @@
 import rapportDistricall from "../assets/rapports/rapport_districall.pdf";
 import rapportAgitel from "../assets/rapports/rapport_agitel.pdf";
 import rapportUcar from "../assets/rapports/rapport_ucar.pdf";
+import BUTGraduation from "../assets/graduation/dbut.jpeg";
+import BACGraduation from "../assets/graduation/dbac.jpeg";
+
 
 
 export const profile = {
@@ -75,11 +78,13 @@ export const formations = [
         title: "BUT Informatique — 2021/2024",
         detail: "Réalisation d'applications : conception, développement, validation",
         place: "IUT de Montreuil — Montreuil",
+        graduation : BUTGraduation,
     },
     {
         title: "Baccalauréat — 2020/2021",
         detail: "Spécialités Mathématiques / NSI",
         place: "Lycée Condorcet — Montreuil",
+        graduation : BACGraduation,
     },
 ];
 

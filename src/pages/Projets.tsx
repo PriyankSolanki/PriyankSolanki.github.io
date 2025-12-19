@@ -6,6 +6,7 @@ import styles from "./Projets.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import NavArrow from "../components/NavArrow.tsx";
+import {faDesktop} from "@fortawesome/free-solid-svg-icons";
 
 export default function Projets() {
     return (
@@ -33,7 +34,7 @@ export default function Projets() {
                                             rel="noreferrer"
                                             className={styles.githubBtn}
                                         >
-                                            Demo →
+                                            Demo <FontAwesomeIcon icon={faDesktop} />
                                         </a>
                                     )}
 

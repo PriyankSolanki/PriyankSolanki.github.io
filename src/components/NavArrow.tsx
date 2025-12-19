@@ -1,6 +1,8 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import styles from "./NavArrow.module.css";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faArrowLeft, faArrowRight} from "@fortawesome/free-solid-svg-icons";
 
 type NavArrowProps = {
     to: string;
@@ -61,7 +63,7 @@ export default function NavArrow({
                 }
             >
         <span className={styles.icon}>
-          {direction === "left" ? "←" : "→"}
+          {direction === "left" ? <FontAwesomeIcon icon={faArrowLeft} /> : <FontAwesomeIcon icon={faArrowRight} />}
         </span>
 
                 <span

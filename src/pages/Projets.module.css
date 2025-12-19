@@ -116,3 +116,8 @@
     pointer-events: auto;
 }
 
+@media (max-width: 1168px) {
+    .navArrows {
+        display: none;
+    }
+}
