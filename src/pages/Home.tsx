@@ -5,7 +5,7 @@ import me from "../assets/me.jpeg";
 import styles from "./Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faFile} from "@fortawesome/free-solid-svg-icons";
 import NavArrow from "../components/NavArrow.tsx";
 
 
@@ -63,6 +63,11 @@ export default function Home() {
                                     <a className={styles.btnSecondary} href={profile.links.email}>
                                         <FontAwesomeIcon icon={faEnvelope} /> -
                                         Me contacter
+                                    </a>
+
+                                    <a className={styles.btnSecondary} href={profile.links.cv} target="_blank" rel="noreferrer">
+                                        <FontAwesomeIcon icon={faFile} /> -
+                                        CV
                                     </a>
                                 </div>
                             </div>

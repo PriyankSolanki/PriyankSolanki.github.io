@@ -3,6 +3,7 @@ import rapportAgitel from "../assets/rapports/rapport_agitel.pdf";
 import rapportUcar from "../assets/rapports/rapport_ucar.pdf";
 import BUTGraduation from "../assets/graduation/dbut.jpeg";
 import BACGraduation from "../assets/graduation/dbac.jpeg";
+import CV from "../assets/cv.pdf"
 import HTML from "../assets/skills/html.svg"
 import CSS from "../assets/skills/css.svg"
 import JS from "../assets/skills/js.svg"
@@ -44,6 +45,7 @@ export const profile = {
         github: "https://github.com/priyanksolanki",
         linkedin: "https://www.linkedin.com/in/priyank-solanki-114b182a0/",
         email: "mailto:priyank.slki@gmail.com",
+        cv : CV
     },
 };
 
