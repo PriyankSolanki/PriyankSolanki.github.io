@@ -127,6 +127,16 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        title: "LOLDLE APP",
+        url: "https://github.com/PriyankSolanki/LoldleApp",
+        description:
+            "Application web inspirée de Loldle permettant de deviner un champion de League of Legends à partir de plusieurs critères.",
+        features: ["Comparaison dynamique des caractéristiques", "Système de feedback visuel", "Recherche et autocomplétion des champions"],
+        context: "Projet Personnelle",
+        demo: "https://loldle.ecyriaque.dev/",
+        stack: ["NextJS", "Prisma", "MySQL", "Docker", "WebStorm"],
+    },
+    {
         title: "Todo App",
         url: "https://github.com/PriyankSolanki/Todo_App",
         description:
